@@ -30,5 +30,6 @@ int main(int argc, char *argv[])
     for (int i = optind; i < argc; ++i) {
         printf("positional argument: %s\n", argv[i]);
     }
+    printf("Hello World!!");
     return 0;
 }
